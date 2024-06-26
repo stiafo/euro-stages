@@ -3,8 +3,6 @@ import { Flex, Box, Text } from '@chakra-ui/react';
 import { getMatchStatus } from '../../utils/functions';
 
 export const MatchDisplay = ({ match }: { match: any }) => {
-	console.log(match);
-
 	if (!match) return <></>;
 	return (
 		<Box p={6} border="1px solid" borderColor="gray.200" borderRadius={8} flexShrink={0} w="300px">
