@@ -46,8 +46,6 @@ function App() {
 		return futureDates.map((date, index) => sortedDates.length - index - 1);
 	};
 
-	console.log(getDefaultIndexes());
-
 	return (
 		<Center w="100%" pb={24} fontFamily="verdana" px={8}>
 			<Box w="1000px">
